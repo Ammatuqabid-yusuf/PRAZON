@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #e8590c;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	padding: 0 5%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("img/praroz.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px;
+}
+.logo {
+	font-size: 32px;
+	font-weight: 800;
+}
+.navbar ul {
+	list-style: none;
+	display: flex;
+	gap: 48px;
+}
+.navbar a:link,
+.navbar a:visited {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	transition: all 3s;
+}
+.navbar a:hover,
+.navbar a:active {
+	color: #e8590c;
+	text-decoration: underline #e8590c;
+}
+.search-input {
+	padding: 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 1.5px solid #e8590c;
+	background: transparent;
+	outline: none;
+	color: white;
+	font-family: inherit;
+	font-size: 16px;
+}
+.search-input::placeholder {
+	color: #ccc;
+}
+.btn-search {
+	background-color: #e8590c;
+	border: none;
+	font-size: 16px;
+	color: white;
+	padding: 12px 16px;
+	margin-left: -5px;
+	cursor: pointer;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transition: all 0.3s;
+}
+.btn-search:hover {
+	color: #e8590c;
+	background-color: white;
+	border: 1px solid #e8590c;
+}
+.main {
+	margin-top: 100px;
+}
+.main-text {
+	color: white;
+	line-height: 1.5;
+	font-size: 18px;
+	margin-bottom: 24px;
+}
+.heading {
+	font-size: 48px;
+	color: white;
+}
+.heading span {
+	color: #e8590c;
+}
+.btn-join {
+	border-radius: 5px;
+}
+.login {
+	background-color: black;
+	text-align: center;
+	border-radius: 10px;
+	padding: 5px 10px;
+	height: 350px;
+	width: 250px;
+	position: relative;
+	top: -350px;
+	right: -900px;
+}
+.login btn-login {
+	text-align: center;
+}
+.btn-login {
+	color: #e8590c;
+	width: 220px;
+	height: 35px;
+	border: none;
+	border-radius: 8px;
+	font-weight: 600;
+	margin-top: 10px;
+
+	font-size: 16px;
+	padding: 5px 20px;
+}
+.login input {
+	width: 220px;
+	height: 30px;
+	border: none;
+	margin-top: 20px;
+	background: transparent;
+	border-bottom: 1px solid #e8590c;
+}
+.login input::placeholder {
+	font-style: italic;
+}
+.btn-login2 {
+	color: white;
+	background-color: #e8590c;
+	width: 220px;
+	height: 35px;
+	border: none;
+	border-radius: 8px;
+	font-weight: 600;
+	margin-top: 30px;
+	font-size: 16px;
+	padding: 5px 20px;
+	margin-bottom: 20px;
+}
+.btn-login2:hover {
+	border: 2px dashed #e8590c;
+	background-color: white;
+	color: black;
+}
+.account {
+	color: white;
+}
+.here {
+	color: white;
+}
+.here span {
+	color: #e8590c;
+}
+.with {
+	color: white;
+	margin-top: 20px;
+}
